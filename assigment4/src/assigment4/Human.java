@@ -3,28 +3,38 @@ package assigment4;
 public class Human {
 	
 	private Dog dog;
-	
 	private String name;
+	private boolean hasDog = false;
 	
 	public Human(String name){
 		
 		this.name=name;
-		this.dog=dog;
+		
 	}
 	
 	public String getName(){
-		return name;
+		return this.name;
 		}
 		
 	
-	public Dog buyDog(Dog dog){
+	public void buyDog(Dog dog){
+		hasDog =!hasDog;
 		
-		return dog=dog;
+		this.dog=dog;
+	}
+	
+	public boolean hasDog(){
+		return hasDog;
 	}
 	
 	public String  getInfo(){
-		return name + dog; 
-	}
-	}
+		if(this.dog !=null) {
+			return getName() + "äger en hund som heter" + this.dog.getName();
+		}else{ return getName() + "äger inte en hund";
+		
+		}
+		}
 
-
+	
+	}
+	
