@@ -1,0 +1,9 @@
+Frågor 
+malmö-lund
+?cmdaction=next&selPointFr=0|80000|0&selPointTo=0|81216|0&NoOf=5
+ journeys  - den visar vilka resultat som finns , 
+ journey är ett möjligt resemål, 
+ Routlinks är alla möjliga byten under resan , 
+ routlink är ett av de möjliga byten, 
+ Routlinks är antal byten huvudtagen är journey 
+ Det finns inga <CO2factor>.
